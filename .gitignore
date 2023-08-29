@@ -1,0 +1,52 @@
+.vercel
+
+
+#Ignore all csv and txt files generate by the tool
+*.csv
+*.txt
+
+#ignore .env setup files
+*.env
+
+# Arquivos gerados pelo PyCharm
+.idea/
+*.iml
+
+# Arquivos gerados pelo ambiente virtual
+env/
+venv/
+virtualenv/
+.venv/
+.python-version
+
+# Arquivos de compilação e build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Arquivos de log e cache
+*.log
+*.cache
+*.swp
+*.swo
+
+# Outros arquivos que não devem ser versionados
+*.pydevproject
+.DS_Store
+.coverage
+.tox/
+output/
+
+# Arquivos de dados
+*.TXT
+*.txt
+*.ret
+*.RET
+*.csv
+*.xlsx
