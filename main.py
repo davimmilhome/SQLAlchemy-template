@@ -14,9 +14,9 @@ def data_extract_example():
     """
     try:
         result_data = pd.read_sql_query(function_querie_example(), connection)
-        dataframe_work_example(result_data)
-
-        result_data.to_csv(
+        data_modified = dataframe_work_example(result_data)
+        
+        data_modified.to_csv(
             "output/example_file.csv",
             index=False,
             sep=";",
