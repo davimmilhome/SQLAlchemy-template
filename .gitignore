@@ -46,6 +46,8 @@ output/
 # Arquivos de dados
 *.TXT
 *.txt
+# Necessario para vercionar os requerimentos
+!requirements.txt
 *.ret
 *.RET
 *.csv
