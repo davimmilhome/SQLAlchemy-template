@@ -54,7 +54,7 @@ requirements.txt - python packages setup </br>
 
 ## Using
 
-Clone this project and intall the dependencies at requirements.txt
+Clone this project and install the dependencies at requirements.txt
 </br>
 
 Setup your querrys and call them on main.py using the connection as the example on code.
